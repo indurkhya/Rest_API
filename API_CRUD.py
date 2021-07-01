@@ -6,7 +6,6 @@ from flask_migrate import Migrate
 from secure_check import authenticate , identity
 # from flask_jwt import JWT,jwt_required
 
-
 app = Flask(__name__)
 app.config['secret_key'] = 'secret'
 basedir = os.path.abspath(os.path.dirname(__file__))
