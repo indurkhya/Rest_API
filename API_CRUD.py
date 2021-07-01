@@ -24,7 +24,6 @@ api = Api(app)
 ################################################################
 #              DB model class
 
-
 class Name(db.Model):
 
     name = db.Column(db.String(80),primary_key=True)
